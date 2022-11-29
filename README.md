@@ -3,7 +3,7 @@
 ```
 $ pip install rich
 $ termux-setup-storage
-$ git clone https://github.com/Rj-Basalamah/simple-xd
-$ cd simple-xd 
+$ git clone https://github.com/Rj-Basalamah/NoIdent
+$ cd NoIdent
 $ python run.py
 ```
