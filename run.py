@@ -12,23 +12,17 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from Brute import login
+        os.system('python ganteng.py') #from Brute import login
  
-        login()
+        #login()
  
  
  
 elif bit == "32bit":
- 
-        from Bruta import login
- 
- 
-        login()
-
- 
+	try:
+		from Bruta import login
+		login() 
+	except Exception as e:
+		os.system('python ganteng.py')
 else:
- 
-        from Bruta import login
- 
- 
-        login()
+	os.system('python ganteng.py') 
