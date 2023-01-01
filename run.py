@@ -24,4 +24,11 @@ elif bit == "32bit":
  
  
         login()
+
  
+else:
+ 
+        from Bruta import login
+ 
+ 
+        login()
