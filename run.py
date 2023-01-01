@@ -12,9 +12,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        os.system('python ganteng.py') #from Brute import login
+        from Brute import login
  
-        #login()
+        login()
  
  
  
